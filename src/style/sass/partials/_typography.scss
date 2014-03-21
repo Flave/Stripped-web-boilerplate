@@ -1,0 +1,35 @@
+html {
+	font-size: $root-font-size;
+	font-family: 'Avenir Next', 'Futura', 'Sans-Serif';
+}
+
+p {
+	margin-bottom: $vertical-grid * 4;
+	@include rem(font-size, 15px);
+	@include rem(line-height, 21px);	
+	color: #282828;	
+}
+
+h1 {
+	@include rem(font-size, 32px);
+	font-weight: 600;
+}
+
+h2 {
+	@include rem(font-size, 26px);
+	@include rem(line-height, 40px);
+	font-weight: 700;
+}
+
+h3 {
+	@include rem(font-size, 18px);
+	@include rem(line-height, 27px);
+	font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+	&:hover {
+		
+	}
+}

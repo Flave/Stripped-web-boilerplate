@@ -1,0 +1,21 @@
+ /**
+ * Mixin to define custom breakpoints
+ */
+
+$huge: 60em !default;
+$medium: 40em !default;
+$small: 30em !default;
+
+@mixin breakpoint($point) {
+	@if $point == huge {
+		@media (max-width: $huge) { @content };
+	}
+
+	@if $point == medium {
+		@media (max-width: $medium) { @content };
+	}
+
+	@if $point == small {
+		@media (max-width: $small) { @content };
+	}
+}

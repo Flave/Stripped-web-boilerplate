@@ -1,0 +1,36 @@
+//import external mixins
+@import "compass";
+@import "susy";
+@import "compass/reset";
+
+ /**
+ * Dimensions
+ */
+
+$root-font-size: 16;
+$vertical-grid: 10px;
+
+ /**
+ * Grid
+ */
+
+$container-width: 80em;
+$container-style: magic;
+
+$total-columns : 4;
+$column-width: 5.5em;
+$gutter-width: 2.5em;
+$grid-padding: $gutter-width;
+
+$tablet: 45em 6;
+$desktop: 60em 12;
+
+ /**
+ * Colors
+ */
+
+$primary-color: #3e7dfb;
+$secondary-color: #efeeee;
+
+//import my helpe mixins
+@import "modules/all";

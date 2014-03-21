@@ -1,0 +1,17 @@
+/* -------- *
+ * $GLOBALS *
+ * -------- */
+
+/**
+ * Styles not specific to a certain element or area
+ */
+
+*,
+*:after,
+*:before {
+	@include box-sizing(border-box);
+}
+
+body, html {
+	width: 100%;
+}

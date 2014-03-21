@@ -1,0 +1,16 @@
+{
+  "name": "grunt-boilerplate",
+  "version": "1.0.0",
+  "author": {
+    "name": "Flavio Gortana",
+    "url": "flaviogortana.com"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-compass": "~0.7.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-filerev": "~0.2.1",
+    "grunt-bowercopy": "~0.9.0"
+  }
+}
